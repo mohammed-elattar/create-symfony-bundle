@@ -39,7 +39,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/",
-            "KnpU\\LoremIbsumBundle\\": "lib/LoremIbsumBundle/src/"
+            "KnpU\\LoremIpsumBundle\\": "lib/LoremIPsumBundle/src/"
         }
     },
     "autoload-dev": {

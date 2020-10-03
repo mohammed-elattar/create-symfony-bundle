@@ -2,15 +2,13 @@
 
 namespace App\Controller;
 
-use KnpU\LoremIbsumBundle\KnpUIpsum;
+use KnpU\LoremIpsumBundle\KnpUIpsum;
 use App\Service\MarkdownHelper;
 use App\Service\SlackClient;
 use Psr\Log\LoggerInterface;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
-use Symfony\Component\HttpFoundation\Response;
-use Twig\Environment;
 
 class ArticleController extends AbstractController
 {
