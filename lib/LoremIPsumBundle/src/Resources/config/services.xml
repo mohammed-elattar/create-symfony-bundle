@@ -4,7 +4,10 @@
            xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
 
     <services>
-        <service id="knpu_lorem_ipsum.knpu_ipsum" class="KnpU\LoremIpsumBundle\KnpUIpsum" public="true"/>
+        <service id="knpu_lorem_ipsum.word_provider" class="KnpU\LoremIpsumBundle\KnpUWordProvider"/>
+        <service id="knpu_lorem_ipsum.knpu_ipsum" class="KnpU\LoremIpsumBundle\KnpUIpsum" public="true">
+                <argument type="service" id="knpu_lorem_ipsum.word_provider"/>
+        </service>
         <service id="KnpU\LoremIpsumBundle\KnpUIpsum" alias="knpu_lorem_ipsum.knpu_ipsum" public="false"/>
     </services>
 </container>
