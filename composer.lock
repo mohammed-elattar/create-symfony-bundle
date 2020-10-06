@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "867171fa4a2dfd3493c76f5d1e3cf6c5",
+    "content-hash": "e1ca5901ba4b2c4b0a487e4d5837a3fe",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -41,7 +41,7 @@
             ],
             "authors": [
                 {
-                    "name": "Christian L\u00fcck",
+                    "name": "Christian Lück",
                     "email": "christian@lueck.tv"
                 }
             ],
@@ -752,6 +752,36 @@
             "time": "2018-01-15T00:49:33+00:00"
         },
         {
+            "name": "mohammedelattar/lorem-ipsum-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "LoremIpsumBundle",
+                "reference": "6f42f9ec538ff85303d1cd78efc8007b3fa0450b"
+            },
+            "require": {
+                "php": "^7.1.3"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "KnpU\\LoremIpsumBundle\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "mohammedelattar",
+                    "email": "mohammed.elattar@metro-markets.de"
+                }
+            ],
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "nexylan/slack",
             "version": "v2.0.0",
             "source": {
@@ -908,7 +938,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -969,7 +999,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1028,7 +1058,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1089,7 +1119,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 },
                 {
@@ -1149,7 +1179,7 @@
                     "email": "geloen.eric@gmail.com"
                 },
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1302,7 +1332,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1375,7 +1405,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1423,7 +1453,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -1473,7 +1503,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 },
                 {
@@ -1527,7 +1557,7 @@
             ],
             "authors": [
                 {
-                    "name": "M\u00e1rk S\u00e1gi-Kaz\u00e1r",
+                    "name": "Márk Sági-Kazár",
                     "email": "mark.sagikazar@gmail.com"
                 }
             ],
@@ -4312,6 +4342,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mohammedelattar/lorem-ipsum-bundle": 20,
         "symfony/lts": 20
     },
     "prefer-stable": false,
@@ -4321,6 +4352,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "platform-overrides": {},
     "plugin-api-version": "1.1.0"
 }

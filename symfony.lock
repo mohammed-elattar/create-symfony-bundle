@@ -53,6 +53,9 @@
     "michelf/php-markdown": {
         "version": "1.8.0"
     },
+    "mohammedelattar/lorem-ipsum-bundle": {
+        "version": "dev-master"
+    },
     "monolog/monolog": {
         "version": "1.23.0"
     },

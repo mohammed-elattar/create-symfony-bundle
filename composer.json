@@ -6,6 +6,7 @@
         "ext-iconv": "*",
         "doctrine/annotations": "^1.8",
         "knplabs/knp-markdown-bundle": "^1.7",
+        "mohammedelattar/lorem-ipsum-bundle": "*@dev",
         "nexylan/slack-bundle": "^2.0",
         "php-http/guzzle6-adapter": "^1.1",
         "sensio/framework-extra-bundle": "^5.1",
@@ -73,5 +74,11 @@
             "id": "01C1TW989CK77ZA7B2H4HC9WAG",
             "allow-contrib": false
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "LoremIpsumBundle"
+        }
+    ]
 }
